@@ -1,0 +1,292 @@
+{
+  "seed": 20261027,
+  "groups": 20,
+  "pool_size": 1000,
+  "candidates": 20,
+  "synthetic_note": "Synthetic applicant pools do not establish field behavior or global optimality.",
+  "scenarios": {
+    "empirical": {
+      "game1": {
+        "equal20": {
+          "allocation": [
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "mean": 5.5,
+          "se": 0.0,
+          "ci95_low": 5.5,
+          "ci95_high": 5.5,
+          "groups": 4,
+          "method": "exact_average_over_test_pool"
+        },
+        "proportional": {
+          "allocation": [
+            7,
+            13,
+            20,
+            27,
+            33
+          ],
+          "mean": 7.0,
+          "se": 0.0,
+          "ci95_low": 7.0,
+          "ci95_high": 7.0,
+          "groups": 4,
+          "method": "exact_average_over_test_pool"
+        },
+        "prior_game1": {
+          "allocation": [
+            1,
+            0,
+            27,
+            32,
+            40
+          ],
+          "mean": 9.375,
+          "se": 0.0,
+          "ci95_low": 9.375,
+          "ci95_high": 9.375,
+          "groups": 4,
+          "method": "exact_average_over_test_pool"
+        },
+        "prior_game2": {
+          "allocation": [
+            0,
+            0,
+            46,
+            0,
+            54
+          ],
+          "mean": 8.125,
+          "se": 0.0,
+          "ci95_low": 8.125,
+          "ci95_high": 8.125,
+          "groups": 4,
+          "method": "exact_average_over_test_pool"
+        },
+        "high_pair+game2_search_best+game2_training_top1+game2_training_top2": {
+          "allocation": [
+            0,
+            0,
+            0,
+            46,
+            54
+          ],
+          "mean": 9.0,
+          "se": 0.0,
+          "ci95_low": 9.0,
+          "ci95_high": 9.0,
+          "groups": 4,
+          "method": "exact_average_over_test_pool"
+        },
+        "game1_best_response": {
+          "allocation": [
+            8,
+            1,
+            0,
+            33,
+            58
+          ],
+          "mean": 10.75,
+          "se": 0.0,
+          "ci95_low": 10.75,
+          "ci95_high": 10.75,
+          "groups": 4,
+          "method": "exact_average_over_test_pool"
+        },
+        "game2_training_top3": {
+          "allocation": [
+            7,
+            29,
+            0,
+            5,
+            59
+          ],
+          "mean": 8.625,
+          "se": 0.0,
+          "ci95_low": 8.625,
+          "ci95_high": 8.625,
+          "groups": 4,
+          "method": "exact_average_over_test_pool"
+        },
+        "game2_training_top4": {
+          "allocation": [
+            40,
+            1,
+            4,
+            0,
+            55
+          ],
+          "mean": 7.5,
+          "se": 0.0,
+          "ci95_low": 7.5,
+          "ci95_high": 7.5,
+          "groups": 4,
+          "method": "exact_average_over_test_pool"
+        },
+        "game2_training_top5": {
+          "allocation": [
+            1,
+            0,
+            17,
+            0,
+            82
+          ],
+          "mean": 6.375,
+          "se": 0.0,
+          "ci95_low": 6.375,
+          "ci95_high": 6.375,
+          "groups": 4,
+          "method": "exact_average_over_test_pool"
+        }
+      },
+      "game2": {
+        "equal20": {
+          "allocation": [
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "mean": 1.9,
+          "se": 0.1905670209498071,
+          "ci95_low": 1.526488638938378,
+          "ci95_high": 2.273511361061622,
+          "groups": 20,
+          "method": "held_out_monte_carlo"
+        },
+        "proportional": {
+          "allocation": [
+            7,
+            13,
+            20,
+            27,
+            33
+          ],
+          "mean": 0.9,
+          "se": 0.06882472016116853,
+          "ci95_low": 0.7651035484841098,
+          "ci95_high": 1.0348964515158903,
+          "groups": 20,
+          "method": "held_out_monte_carlo"
+        },
+        "prior_game1": {
+          "allocation": [
+            1,
+            0,
+            27,
+            32,
+            40
+          ],
+          "mean": 3.55,
+          "se": 0.5267826876426369,
+          "ci95_low": 2.5175059322204314,
+          "ci95_high": 4.582494067779568,
+          "groups": 20,
+          "method": "held_out_monte_carlo"
+        },
+        "prior_game2": {
+          "allocation": [
+            0,
+            0,
+            46,
+            0,
+            54
+          ],
+          "mean": 6.2,
+          "se": 0.4205259864302774,
+          "ci95_low": 5.375769066596656,
+          "ci95_high": 7.024230933403344,
+          "groups": 20,
+          "method": "held_out_monte_carlo"
+        },
+        "high_pair+game2_search_best+game2_training_top1+game2_training_top2": {
+          "allocation": [
+            0,
+            0,
+            0,
+            46,
+            54
+          ],
+          "mean": 9.0,
+          "se": 0.0,
+          "ci95_low": 9.0,
+          "ci95_high": 9.0,
+          "groups": 20,
+          "method": "held_out_monte_carlo"
+        },
+        "game1_best_response": {
+          "allocation": [
+            8,
+            1,
+            0,
+            33,
+            58
+          ],
+          "mean": 9.0,
+          "se": 0.0,
+          "ci95_low": 9.0,
+          "ci95_high": 9.0,
+          "groups": 20,
+          "method": "held_out_monte_carlo"
+        },
+        "game2_training_top3": {
+          "allocation": [
+            7,
+            29,
+            0,
+            5,
+            59
+          ],
+          "mean": 8.25,
+          "se": 0.2628287415189234,
+          "ci95_low": 7.73485566662291,
+          "ci95_high": 8.76514433337709,
+          "groups": 20,
+          "method": "held_out_monte_carlo"
+        },
+        "game2_training_top4": {
+          "allocation": [
+            40,
+            1,
+            4,
+            0,
+            55
+          ],
+          "mean": 7.5,
+          "se": 0.5256574830378468,
+          "ci95_low": 6.4697113332458205,
+          "ci95_high": 8.53028866675418,
+          "groups": 20,
+          "method": "held_out_monte_carlo"
+        },
+        "game2_training_top5": {
+          "allocation": [
+            1,
+            0,
+            17,
+            0,
+            82
+          ],
+          "mean": 7.5,
+          "se": 0.5256574830378468,
+          "ci95_low": 6.4697113332458205,
+          "ci95_high": 8.53028866675418,
+          "groups": 20,
+          "method": "held_out_monte_carlo"
+        }
+      },
+      "training_selected_game2": [
+        0,
+        0,
+        0,
+        46,
+        54
+      ]
+    }
+  }
+}
